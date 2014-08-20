@@ -353,9 +353,7 @@ font-size: 25px;
 .disttext {
 	padding-left: 100px;
 }
-.publictext a, .publictext p {
-	min-width: 300px;
-}
+
 #resrow ul, .resexper3 ul,
 .resexper4 ul {
 	text-align: left;
@@ -401,12 +399,13 @@ font-size: 25px;
 	padding-left: 0px;
 	margin-left: 0px;
 	text-align: left;
-	max-width: 400px;
-	min-width: 350px;
-	 
+	max-width: 350px;
+	padding-right: 0px;
 }
+
 .publictext {
-	padding-left: 27px;
+	padding-left: 35px;
+	padding-right: 0px;
 	
 }
 .container {
