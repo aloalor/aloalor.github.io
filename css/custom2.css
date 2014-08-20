@@ -1,0 +1,401 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+ul.nav, a.navbar-brand, .cv, .skills, 
+.educat, .col-md-8, .col-md-3, .col-md-2, .publicat,
+.lang, .indepcours, .addit  {
+
+	font-family: 'Arimo', sans-serif, courier;
+
+}
+
+ul.nav, a.navbar-brand  {
+font-size: 25px;
+	}
+
+.container {
+	max-width: 1270px;
+}
+
+.cv {
+	text-align: center;
+	padding-top: 30px;
+}
+
+.cv h1 {
+	color: #e67e22;
+}
+
+.cv h3 {
+	padding-bottom: 30px;
+}
+
+.cv p {
+	font-size: 18px;
+	padding-bottom: 20px;
+}
+
+.skills {
+	padding-top: 12px;
+	padding-bottom: 30px;
+}
+
+.educat2, .distinct, .addit, .lang {
+	padding-bottom: 40px;
+}
+
+.indepcours {
+	padding-bottom: 90px;
+}
+
+.publicat {
+	padding-bottom: 20px;
+}
+
+.resexper, .resexper2, .resexper3, .resexper4 {
+	padding-bottom: 10px;
+}
+
+.educat, .skills, .resexper {
+	padding-top: 20px;
+}
+
+.distinct, .publicat, .addit, .lang, 
+.indepcours {
+	padding-top: 40px;
+}
+
+.resexper2, .resexper3, 
+.resexper4 {
+	padding-top: 30px;
+}
+
+#educrow {
+	padding-left: 120px;
+	padding-top: 20px;
+}
+
+#skillrow, .publictext, .disttext, #resrow, 
+.addit, .lang, .indepcours {
+	padding-top: 15px;
+}
+
+.resexper h4, .resexper2 h4, .resexper3 h4, .resexper ul, 
+.resexper3 ul, .resexper4 h4, .resexper4 ul, .educat h4, 
+.educat h5, .educat2 h4, .educat2 h5, .addit h4, 
+.indepcours h4 {
+	padding-left: 120px;
+}
+
+.skills hr, .educat hr, .distinct hr, .publicat hr, 
+.resexper hr, .addit hr, .lang hr, .indepcours hr {
+	border-top: 1px solid#e67e22;
+	width: 120px;
+	margin-top: 8px;
+}
+
+.col-md-2 ul {
+	text-align: left;
+	font-size: 16px;
+}
+
+.col-md-2 h4 {
+	font-weight: bold;
+	text-align: center;	
+}
+
+.col-md-8 h4, .col-md-8 h5, .col-md-8 ul {
+	text-align: left;
+}
+
+.col-md-3 h4 {
+	text-align: right;
+}
+
+.disttext   {
+	text-align: left;
+	padding-left: 90px;
+}
+.publictext {
+	text-align: left;
+	padding-left: 120px;
+}
+
+
+.skills h3, .educat h3, .distinct h3, .publicat h3,
+.resexper h3, .addit h3, .indepcours h3, .lang h3,
+.lang h4 {
+	text-align: center;
+}
+
+.lang h4 {
+	padding-left: 0px;
+}
+
+.publictext a {
+	color: #015259;
+}
+
+.publictext a:hover {
+	color: #53A6AE;
+	text-decoration:none;
+	opacity: 0.7;
+}
+
+.cv a:hover {
+	text-decoration: none;
+}
+
+.skills, .distinct, .resexper, .resexper3,
+.lang {
+	background-color: #fcf6e8;
+} 
+
+.resexper2, .resexper4 {
+	background-color: #f4f7fe;
+}
+
+.fa-stack {
+	color: #e67e22;
+}
+
+
+/* Responsive Styling */
+
+@media (max-width: 1199px) {
+#dates1 h4, #dates2 h4, #dates3 h4, #dates4 h4,
+#dates5 h4 {
+	padding-left: 0px;
+}
+.publicat a {
+	font-size: 16px;
+}
+.skills h3 {
+	font-size: 15px;
+}
+.disttext {
+	padding-right: 180px;
+}
+.publictext {
+	padding-right: 130px;
+}
+
+}
+
+@media (max-width: 991px) {
+
+.cv h1 {
+	padding-top: 50px;
+}
+.cv p {
+	font-size: 16px;
+}
+.cv h3 {
+	font-size: 23px;
+}
+.container h3 {
+	font-size: 22px;
+}
+.container h4, .distinct ul {
+	font-size: 17px;
+}
+.skills h4 {
+	padding-bottom: 20px;
+}
+.col-md-2 ul {
+	text-align: center;
+}
+.col-md-2 {
+	padding-bottom: 40px;
+}
+.educat h4, .educat h5, .educat2 h4, .educat2 h5 {
+	padding-left: 80px;
+	max-width: 600px;
+	text-align: center;
+}
+
+#dates h4 {
+	max-width: 600px;
+	text-align: center;
+	padding-left: 80px;
+	padding-bottom: 50px;
+}
+.disttext {
+	padding-left: 160px;
+}
+#resrow h4, .resexper2 h4, .resexper3 h4,
+.resexper4 h4 {
+	text-align: center;
+	padding-left: 0px;
+}
+#dates1, #dates2, #dates3, #dates4 {
+	padding-bottom: 50px;
+}
+.addit h4 {
+	padding-left: 100px;
+	font-size: 12px;
+}
+#dates5 {
+	padding-left: 100px;
+	padding-bottom: 20px;
+	max-width: 400px;
+}
+.indepcours h4 {
+	padding-left: 180px;
+	font-size: 12px;
+}
+#dates6 {
+	padding-left: 150px;
+	padding-bottom: 20px;
+	max-width: 300px; 
+} 
+
+}
+
+@media (max-width: 767px) {
+.cv p {
+	max-width: 350px;
+	margin-left: 180px;
+	font-size: 17px;
+	text-align: left;
+}
+
+.pdftext {
+	text-indent: 120px;
+}
+.educat h4, .educat h5, .educat2 h4, .educat2 h5 {
+	padding-left: 30px;
+	max-width: 600px;
+	text-align: center;
+}
+#dates h4 {
+	max-width: 600px;
+	text-align: center;
+	padding-left: 30px;
+	padding-bottom: 50px;
+}
+.disttext ul {
+	min-width: 400px;
+	padding-left: 0px;
+	margin-left: 0px;
+	text-align: left;
+}
+.disttext {
+	padding-left: 160px;
+}
+.publictext a, .publictext p {
+	min-width: 300px;
+}
+#resrow ul, .resexper3 ul,
+.resexper4 ul {
+	text-align: left;
+	padding-left: 200px;
+	max-width: 400px;
+}
+#resrow h4, .resexper2 h4, .resexper3 h4, .resexper4 h4 {
+	text-align: left;
+	padding-left: 200px;
+}
+
+#dates1 h4, #dates2 h4, #dates3 h4, #dates4 h4 {
+	max-width: 600px;
+	text-align: left;
+	padding-left: 220px;
+	padding-bottom: 20px;
+}
+.addit h4, .indepcours h4 {
+	padding-left: 100px;
+	max-width: 500px;
+}
+#dates5 h4, #dates6 h4 {
+	padding-left: 100px;
+	padding-bottom: 20px;
+	max-width: 300px;
+	text-align: left;
+}
+.lang h4 {
+	padding-left: 0px;
+}
+
+
+}
+
+
+
+
+@media (max-width: 580px) {
+.cv p {
+	max-width: 350px;
+	margin-left: 120px;
+	font-size: 15px;
+	text-align: left;
+}
+
+.pdftext {
+	text-indent: 120px;
+}
+.educat h4, .educat h5, .educat2 h4, .educat2 h5 {
+	padding-left: 30px;
+	max-width: 600px;
+	text-align: center;
+}
+#dates h4 {
+	max-width: 600px;
+	text-align: center;
+	padding-left: 30px;
+	padding-bottom: 50px;
+}
+.disttext ul {
+	min-width: 300px;
+	padding-left: 0px;
+	margin-left: 0px;
+	text-align: left;
+}
+.disttext {
+	padding-left: 100px;
+}
+.publictext a, .publictext p {
+	min-width: 300px;
+}
+#resrow ul, .resexper3 ul,
+.resexper4 ul {
+	text-align: left;
+	padding-left: 80px;
+}
+#resrow h4, .resexper2 h4, .resexper3 h4, .resexper4 h4 {
+	text-align: left;
+	padding-left: 80px;
+}
+
+#dates1 h4, #dates2 h4, #dates3 h4, #dates4 h4 {
+	max-width: 600px;
+	text-align: left;
+	padding-left: 140px;
+	padding-bottom: 20px;
+}
+.addit h4, .indepcours h4 {
+	padding-left: 40px;
+}
+#dates5, #dates6 {
+	padding-left: 20px;
+	padding-bottom: 20px;
+	max-width: 230px;
+}
+
+
+}
+
+
+
+footer {
+background-color: #e67e22;
+padding-top: 10px;
+}
+
+
+
+
+

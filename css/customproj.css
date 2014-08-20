@@ -1,0 +1,167 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+ul.nav, a.navbar-brand, .container, .container h1 {
+
+	font-family: 'Arimo', sans-serif, courier;
+
+}
+
+ul.nav, a.navbar-brand  {
+font-size: 25px;
+	}
+
+.container {
+	max-width: 1270px;
+}
+
+.container h1  {
+	text-align: center;
+	color: #e67e22;
+}
+
+.container hr {
+border-top: 1px solid#e67e22;
+	width: 120px;
+	margin-top: 8px;
+}
+
+.container h3 {
+	text-align: center;
+}
+
+.fa-stack {
+	color: #015259;
+}
+
+.col-md-4 a:hover {
+	text-decoration: none;
+	opacity: 0.7;
+}
+
+.col-md-4 p {
+	font-size: 20px;
+}
+
+.thesistext, .comptext, .postertext {
+	text-align: center;
+}
+
+.thesis, .comp {
+	padding-left: 110px;
+}
+
+.projects {
+	padding-top: 40px;
+	text-align: center;
+	padding-bottom: 40px;
+}
+
+.contact h1  {
+	text-align: center;
+	color: #e67e22;
+}
+
+.phdthesis {
+	background-color: #fcf6e8;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.comprehens {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.poster {
+	background-color: #f4f7fe;
+	padding-top: 40px;
+	padding-bottom: 60px;
+}
+
+.post {
+	padding-left: 40px;
+}
+
+.postertext p {
+	padding-top: 30px;
+}
+
+.col-md-6 h4 {
+	padding-top: 10px;
+}
+
+
+footer {
+background-color: #e67e22;
+padding-top: 10px;
+}
+
+
+@media (max-width: 1199px) {
+.poster h4 {
+	margin-left: 50px;
+}	
+}
+
+@media (max-width: 991px) {
+
+.projects h1, .projects {
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+.thesis {
+	padding-left: 280px;
+}
+.comp {
+	padding-left: 280px;
+}
+.post {
+	padding-left: 210px;
+}
+}
+
+@media (max-width: 767px) {
+.projects h1, .projects {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.thesis {
+	padding-left: 200px;
+}
+.comp {
+	padding-left: 200px;
+}
+.post {
+	padding-left: 130px;
+}
+}
+
+@media (max-width: 580px) {
+.projects h1, .projects {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.thesis {
+	padding-left: 140px;
+}
+.comp {
+	padding-left: 140px;
+}
+.post {
+	padding-left: 70px;
+}
+}
+
+
+
+
+
+
+
+
+
+
