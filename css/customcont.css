@@ -134,10 +134,10 @@ padding-left: 40px;
 
 @media (max-width: 490px) {
 .message {
-	padding-left: 55px;
+	padding-left: 65px;
 }
 .continfo p {
-	padding-left: 40px;
+	padding-left: 50px;
 	margin-left: 0px;
 	text-align: left;
 }
