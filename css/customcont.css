@@ -132,6 +132,19 @@ padding-left: 40px;
 }
 }
 
+@media (max-width: 490px) {
+.message {
+	padding-left: 30px;
+}
+.pdftext {
+	padding-left: 
+}
+.fa-ul {
+	padding-left: 0px;
+	font-size: 18px;
+}
+}
+
 
 footer {
 background-color: #e67e22;

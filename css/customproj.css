@@ -95,12 +95,6 @@ border-top: 1px solid#e67e22;
 }
 
 
-footer {
-background-color: #e67e22;
-padding-top: 10px;
-}
-
-
 @media (max-width: 1199px) {
 .poster h4 {
 	margin-left: 50px;
@@ -156,7 +150,22 @@ padding-top: 10px;
 }
 }
 
+@media (max-width: 490px) {
+.thesis {
+	padding-left: 80px;
+}
+.comp {
+	padding-left: 80px;
+}
+.post {
+	padding-left: 15px;
+}
+}
 
+footer {
+background-color: #e67e22;
+padding-top: 10px;
+}
 
 
 

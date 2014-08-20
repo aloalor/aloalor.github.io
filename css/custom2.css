@@ -319,11 +319,7 @@ font-size: 25px;
 .lang h4 {
 	padding-left: 0px;
 }
-
-
 }
-
-
 
 
 @media (max-width: 580px) {
@@ -384,11 +380,41 @@ font-size: 25px;
 	padding-bottom: 20px;
 	max-width: 230px;
 }
-
-
 }
 
-
+@media (max-width: 490px) {
+.cv p {
+	max-width: 300px;
+	margin-left: 10px;
+	font-size: 15px;
+	text-align: left;
+}
+.pdftext {
+	text-indent: 20px;
+}
+.disttext {
+	padding-left: 5px;
+}
+.publictext a, .publictext p {
+	padding-left: 10px;
+	margin-left: 0px;
+	text-align: left;
+}
+#resrow ul, .resexper3 ul,
+.resexper4 ul {
+	text-align: left;
+	padding-left: 20px;
+}
+#resrow h4, .resexper2 h4, .resexper3 h4, .resexper4 h4 {
+	text-align: left;
+	padding-left: 20px;
+}
+#dates1 h4, #dates2 h4, #dates3 h4, #dates4 h4 {
+	text-align: left;
+	padding-left: 40px;
+	padding-bottom: 5px;
+}
+}
 
 footer {
 background-color: #e67e22;
