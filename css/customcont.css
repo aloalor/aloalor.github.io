@@ -134,10 +134,10 @@ padding-left: 40px;
 
 @media (max-width: 490px) {
 .message {
-	padding-left: 30px;
+	padding-left: 40px;
 }
 .pdftext {
-	padding-left: 
+	padding-left: 30px;
 }
 .fa-ul {
 	padding-left: 0px;
