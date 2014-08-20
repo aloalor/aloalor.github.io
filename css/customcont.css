@@ -136,8 +136,10 @@ padding-left: 40px;
 .message {
 	padding-left: 45px;
 }
-.pdftext {
-	padding-left: 0px;
+.continfo p {
+	padding-left: 30px;
+	margin-left: 0px;
+	text-align: left;
 }
 .fa-ul {
 	padding-left: 0px;
