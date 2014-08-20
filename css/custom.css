@@ -59,6 +59,7 @@ color: #e67e22;
 	font-weight: 800;
 	text-align: left;
 	color: #e67e22;
+	max-width: 400px;
 }
 
 .btn-lg {
@@ -190,7 +191,7 @@ color: #e67e22;
 
 	@media (max-width: 490px) {
 	.jumbotron p {
-		padding-left: 30px;
+		padding-left: 0px;
 	}
 	}
 
