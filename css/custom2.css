@@ -135,11 +135,11 @@ font-size: 25px;
 	padding-left: 0px;
 }
 
-.publictext a {
+.publictext a, .addittext h4 {
 	color: #015259;
 }
 
-.publictext a:hover {
+.publictext a:hover, .addittext a:hover {
 	color: #53A6AE;
 	text-decoration:none;
 	opacity: 0.7;
