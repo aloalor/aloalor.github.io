@@ -1,4 +1,3 @@
-/* Move down content because we have a fixed navbar that is 50px tall */
 body {
   padding-top: 50px;
   padding-bottom: 20px;
@@ -86,7 +85,7 @@ font-size: 25px;
 .resexper h4, .resexper2 h4, .resexper3 h4, .resexper ul, 
 .resexper3 ul, .resexper4 h4, .resexper4 ul, .educat h4, 
 .educat h5, .educat2 h4, .educat2 h5, .addit h4, 
-.indepcours h4 {
+.indepcours h4, .indepcours a {
 	padding-left: 120px;
 }
 
@@ -135,11 +134,11 @@ font-size: 25px;
 	padding-left: 0px;
 }
 
-.publictext a {
+.publictext a, .indepcours a {
 	color: #015259;
 }
 
-.publictext a:hover {
+.publictext a:hover, .indepcours a:hover {
 	color: #53A6AE;
 	text-decoration:none;
 	opacity: 0.7;
@@ -243,7 +242,7 @@ font-size: 25px;
 	padding-bottom: 20px;
 	max-width: 400px;
 }
-.indepcours h4 {
+.indepcours h4, .indepcours a {
 	padding-left: 180px;
 	font-size: 12px;
 }
@@ -306,7 +305,7 @@ font-size: 25px;
 	padding-left: 220px;
 	padding-bottom: 20px;
 }
-.addit h4, .indepcours h4 {
+.addit h4, .indepcours h4, .indepcours a {
 	padding-left: 100px;
 	max-width: 500px;
 }
@@ -319,7 +318,11 @@ font-size: 25px;
 .lang h4 {
 	padding-left: 0px;
 }
+
+
 }
+
+
 
 
 @media (max-width: 580px) {
@@ -353,7 +356,9 @@ font-size: 25px;
 .disttext {
 	padding-left: 100px;
 }
-
+.publictext a, .publictext p {
+	min-width: 300px;
+}
 #resrow ul, .resexper3 ul,
 .resexper4 ul {
 	text-align: left;
@@ -370,7 +375,7 @@ font-size: 25px;
 	padding-left: 140px;
 	padding-bottom: 20px;
 }
-.addit h4, .indepcours h4 {
+.addit h4, .indepcours h4, .indepcours a {
 	padding-left: 40px;
 }
 #dates5, #dates6 {
@@ -378,70 +383,15 @@ font-size: 25px;
 	padding-bottom: 20px;
 	max-width: 230px;
 }
+
+
 }
 
 
-@media (max-width: 490px) {
-.cv p {
-	max-width: 300px;
-	padding-left: 40px;
-	margin-left: 0px;
-	font-size: 15px;
-	text-align: left;
-}
-.pdftext {
-	text-indent: 55px;
-}
-.disttext {
-	padding-left: 20px;
-}
-.publictext a, .publictext p {
-	padding-left: 0px;
-	margin-left: 0px;
-	text-align: left;
-	max-width: 350px;
-	padding-right: 0px;
-}
-
-.publictext {
-	padding-left: 35px;
-	padding-right: 0px;
-	
-}
-.container {
-	padding-left: 0px;
-}
-#resrow ul, .resexper3 ul,
-.resexper4 ul {
-	text-align: left;
-	padding-left: 20px;
-	text-align: center;
-}
-#resrow h4, .resexper2 h4, .resexper3 h4, .resexper4 h4 {
-	text-align: left;
-	padding-left: 20px;
-	text-align: center;
-}
-#dates1 h4, #dates2 h4, #dates3 h4, #dates4 h4 {
-	text-align: left;
-	padding-left: 40px;
-	padding-bottom: 5px;
-	text-align: center;
-}
-.addit h4 {
-	padding-left: 20px;
-}
-.container {
-	max-width: 350px;
-}
-}
 
 footer {
 background-color: #e67e22;
 padding-top: 10px;
 }
-
-
-
 
 
