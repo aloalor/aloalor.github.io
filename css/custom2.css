@@ -86,7 +86,7 @@ font-size: 25px;
 .resexper h4, .resexper2 h4, .resexper3 h4, .resexper ul, 
 .resexper3 ul, .resexper4 h4, .resexper4 ul, .educat h4, 
 .educat h5, .educat2 h4, .educat2 h5, .addit h4, 
-.indepcours h4 {
+.indepcours a, .indepcours h4 {
 	padding-left: 120px;
 }
 
@@ -243,7 +243,7 @@ font-size: 25px;
 	padding-bottom: 20px;
 	max-width: 400px;
 }
-.indepcours h4 {
+.indepcours a, .indepcours h4 {
 	padding-left: 180px;
 	font-size: 12px;
 }
@@ -306,7 +306,7 @@ font-size: 25px;
 	padding-left: 220px;
 	padding-bottom: 20px;
 }
-.addit h4, .indepcours h4 {
+.addit h4, .indepcours h4, .indepcours a {
 	padding-left: 100px;
 	max-width: 500px;
 }
@@ -370,7 +370,7 @@ font-size: 25px;
 	padding-left: 140px;
 	padding-bottom: 20px;
 }
-.addit h4, .indepcours h4 {
+.addit h4, .indepcours h4, .indepcours a {
 	padding-left: 40px;
 }
 #dates5, #dates6 {
