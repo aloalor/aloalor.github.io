@@ -340,77 +340,19 @@ font-size: 25px;
 	max-width: 230px;
 }
 
+.container {
+		max-width: 350px;
+	}
 
 }
 
 
 @media (max-width: 480px) {
 
-.educat h4, .educat h5, .educat2 h4, .educat2 h5 {
-	padding-left: 30px;
-	max-width: 600px;
-}
-#dates h4 {
-	max-width: 600px;
-	text-align: center;
-	padding-left: 30px;
-	padding-bottom: 50px;
-}
-.disttext ul {
-	min-width: 350px;
-	padding-left: 25px;
-	margin-left: 0px;
-	text-align: center;
-}
-.disttext {
-	padding-left: 120px;
-	text-align: center;
-}
-.publictext a, .publictext p {
-	min-width: 300px;
-	text-align: center;
-}
-.publictext {
-	text-align: center;
-}
+.container {
+		max-width: 350px;
+	}
 
-.resexper3 ul,
-.resexper4 ul {
-	text-align: center;
-	max-width: 500px;
-	padding-left: 0px;
-}
-
-#resrow ul {
-	text-align: center;
-	padding-left: 80px;
-	max-width: 500px;
-}
-
-
-.resexper2 h4, .resexper3 h4, .resexper4 h4 {
-	text-align: center;
-}
-
-#dates1 h4, #dates2 h4, #dates3 h4, #dates4 h4 {
-	max-width: 600px;
-	text-align: left;
-	padding-left: 220px;
-	padding-bottom: 20px;
-}
-.addit h4, .indepcours h4, .indepcours a {
-	padding-left: 100px;
-	max-width: 500px;
-}
-#dates5 h4, #dates6 h4 {
-	padding-left: 100px;
-	padding-bottom: 20px;
-	max-width: 300px;
-	text-align: left;
-}
-.lang h4 {
-	padding-left: 0px;
-}
 }
 
 
