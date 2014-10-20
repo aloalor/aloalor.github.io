@@ -6,9 +6,7 @@ body {
 ul.nav, a.navbar-brand, .cv, .skills, 
 .educat, .col-md-8, .col-md-3, .col-md-2, .publicat,
 .lang, .indepcours, .addit  {
-
 	font-family: 'Arimo', sans-serif, courier;
-
 }
 
 ul.nav, a.navbar-brand  {
@@ -17,6 +15,12 @@ font-size: 25px;
 
 .container {
 	max-width: 1270px;
+	padding-right: 0px;
+}
+
+footer {
+background-color: #e67e22;
+padding-top: 10px;
 }
 
 .cv {
@@ -34,7 +38,9 @@ font-size: 25px;
 
 .cv p {
 	font-size: 18px;
-	padding-bottom: 20px;
+	padding-bottom: 30px;
+	margin-left: 160px;
+	margin-right: 160px;
 }
 
 .skills {
@@ -72,22 +78,13 @@ font-size: 25px;
 	padding-top: 40px;
 }
 
-
 #educrow {
-	padding-left: 120px;
 	padding-top: 20px;
 }
 
 #skillrow, .publictext, .disttext, #resrow, 
 .addit, .lang, .indepcours {
 	padding-top: 15px;
-}
-
-.resexper h4, .resexper2 h4, .resexper3 h4, .resexper ul, 
-.resexper3 ul, .resexper4 h4, .resexper4 ul, .educat h4, 
-.educat h5, .educat2 h4, .educat2 h5, .addit h4, 
-.indepcours h4, .indepcours a {
-	padding-left: 120px;
 }
 
 .skills hr, .educat hr, .distinct hr, .publicat hr, 
@@ -111,19 +108,36 @@ font-size: 25px;
 	text-align: left;
 }
 
+.col-md-8 ul {
+	padding-left: 0px;
+}
+
 .col-md-3 h4 {
 	text-align: right;
 }
 
-.disttext   {
-	text-align: left;
-	padding-left: 90px;
-}
-.publictext {
-	text-align: left;
-	padding-left: 120px;
+.eductext, .eductext2, #resrow h4, 
+.resexper2 h4, .resexper3 h4, .resexper3 ul, 
+.resexper4 h4, .resexper4 ul, .publictext, .addit h4, 
+.indeptext a, .indeptext h4, .educt h4 {
+	margin-left: 90px;
+	margin-right: 90px;
 }
 
+#resrow ul {
+	margin-left: 90px;
+}
+
+.publictext {
+	text-align: center;
+}
+
+.disttext ul  {
+	text-align: center;
+	margin-left: 90px;
+	margin-right: 90px;
+	padding-left: 0px;
+}
 
 .skills h3, .educat h3, .distinct h3, .publicat h3,
 .resexper h3, .addit h3, .indepcours h3, .lang h3,
@@ -133,6 +147,19 @@ font-size: 25px;
 
 .lang h4 {
 	padding-left: 0px;
+}
+
+#dates h4, #dates1 h4, #dates2 h4, #dates3 h4, #dates4 h4,
+#dates5 h4, #dates6 h4 {
+	padding-left: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	text-align: right;
+}
+
+#dates6 h4 {
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
 
 .publictext a, .indepcours a {
@@ -163,11 +190,14 @@ font-size: 25px;
 }
 
 
+
 /* Responsive Styling */
 
 @media (max-width: 1199px) {
+
+
 #dates1 h4, #dates2 h4, #dates3 h4, #dates4 h4,
-#dates5 h4 {
+#dates5 h4, #dates6 h4 {
 	padding-left: 0px;
 }
 .publicat a {
@@ -176,13 +206,6 @@ font-size: 25px;
 .skills h3 {
 	font-size: 15px;
 }
-.disttext {
-	padding-right: 180px;
-}
-.publictext {
-	padding-right: 130px;
-}
-
 }
 
 @media (max-width: 991px) {
@@ -252,13 +275,50 @@ font-size: 25px;
 	padding-bottom: 20px;
 	max-width: 300px; 
 } 
-
 }
+
 
 @media (max-width: 767px) {
 .cv p {
-	max-width: 350px;
-	margin-left: 150px;
+	font-size: 17px;
+	text-align: center;
+	margin-bottom: 25px;
+	margin-left: 60px;
+	margin-right: 60px;
+}
+
+.col-md-8 h5, .col-md-8 h4  {
+	text-align: center;
+}
+
+.disttext ul {
+padding-left: 0px;
+margin-left: 80px;
+margin-right: 80px;
+min-width: 350px;
+}
+
+.col-md-2 ul {
+	padding-left: 0px;
+}
+}
+
+
+@media (max-width: 650px) {
+
+.disttext ul {
+padding-left: 0px;
+margin-left: 60px;
+margin-right: 60px;
+min-width: 300px;
+}
+
+}
+
+
+@media (max-width: 580px) {
+
+.cv p {
 	font-size: 17px;
 	text-align: center;
 	margin-bottom: 25px;
@@ -280,85 +340,14 @@ font-size: 25px;
 
 
 
-@media (max-width: 580px) {
-.cv p {
-	max-width: 350px;
-	margin-left: 120px;
-	font-size: 15px;
-	text-align: left;
-}
-
-.pdftext {
-	text-indent: 120px;
-}
-.educat h4, .educat h5, .educat2 h4, .educat2 h5 {
-	padding-left: 30px;
-	max-width: 600px;
-	text-align: center;
-}
-#dates h4 {
-	max-width: 600px;
-	text-align: center;
-	padding-left: 30px;
-	padding-bottom: 50px;
-}
-.disttext ul {
-	min-width: 300px;
-	padding-left: 0px;
-	margin-left: 0px;
-	text-align: left;
-}
-.disttext {
-	padding-left: 100px;
-}
-.publictext a, .publictext p {
-	min-width: 300px;
-}
-#resrow ul, .resexper3 ul,
-.resexper4 ul {
-	text-align: left;
-	padding-left: 200px;
-	max-width: 400px;
-}
-#resrow h4, .resexper2 h4, .resexper3 h4, .resexper4 h4 {
-	text-align: left;
-	padding-left: 80px;
-}
-
-#dates1 h4, #dates2 h4, #dates3 h4, #dates4 h4 {
-	max-width: 600px;
-	text-align: left;
-	padding-left: 140px;
-	padding-bottom: 20px;
-}
-.addit h4, .indepcours h4, .indepcours a {
-	padding-left: 40px;
-}
-#dates5, #dates6 {
-	padding-left: 20px;
-	padding-bottom: 20px;
-	max-width: 230px;
-}
-
-.container {
-		max-width: 350px;
-	}
-
-}
 
 
-@media (max-width: 480px) {
-
-.container {
-		max-width: 350px;
-	}
-
-}
 
 
-footer {
-background-color: #e67e22;
-padding-top: 10px;
-}
+
+
+
+
+
 
 
