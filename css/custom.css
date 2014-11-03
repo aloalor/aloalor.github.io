@@ -38,22 +38,14 @@ padding-bottom: 60px;
 .jumbotron {
 	text-align: center;
 	color: #e67e22;
-	background-image: url('../images/neurons_im5.png');
+	background-image: url('../images/neurons_im8.png');
 	padding-bottom: 270px;
 
 }
 
-.jumbotron h1 {
-margin-top: 50px;
-margin-bottom: 20px;
-margin-left: 50px;
-padding-bottom: 70px;
-text-align: left;
-color: #e67e22;
-}
-
 
 .jumbotron p {
+	margin-top: 300px;
 	margin-bottom: 45px;
 	font-weight: 100;
 	padding: 30px;
@@ -119,11 +111,7 @@ color: #e67e22;
 /* Responsive Styling */
 
 @media (max-width: 1199px) {
-	.jumbotron h1 {
-		font-size: 63px;
-		margin-bottom: 10px;
-		margin-left: 30px;
-	}
+	
 	.jumbotron p {
 		font-size: 19px;
 		padding-left: 30px;
@@ -131,11 +119,7 @@ color: #e67e22;
 }
 
 @media (max-width: 991px) {
-	.jumbotron h1 {
-		font-size: 53px;
-		margin-bottom: 5px;
-		padding-left: 30px;
-	}
+	
 	.jumbotron p {
 		margin-left: 30px;
 	}
@@ -151,9 +135,7 @@ color: #e67e22;
 }
 
 @media (max-width: 767px) {
-	.jumbotron h1 {
-		padding-bottom: 100px;
-	}
+	
 
 	.jumbotron p {
 		padding-bottom: 30px;
@@ -176,11 +158,12 @@ color: #e67e22;
 	}
 
 @media (max-width: 580px) {
-	.jumbotron h1 {
-		padding-bottom: 80px;
-		font-size: 35px;
-	}
 	
+	.jumbotron p {
+		padding-bottom: 10px;
+		margin-bottom: 10px;
+		font-size: 16px;
+	}
 	.container {
 		max-width: 350px;
 	}
