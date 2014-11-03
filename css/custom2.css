@@ -170,18 +170,6 @@ font-size: 25px;
 
 /* Responsive Styling */
 
-@media (max-width: 1199px) {
-#dates1 h4, #dates2 h4, #dates3 h4, #dates4 h4,
-#dates5 h4 {
-	padding-left: 0px;
-}
-.publicat a {
-	font-size: 16px;
-}
-.skills h3 {
-	font-size: 15px;
-}
-}
 
 @media (max-width: 991px) {
 
@@ -415,10 +403,10 @@ font-size: 25px;
 
 @media (max-width: 410px) {
 .cv h1 {
-	font-size: 25px;
+	font-size: 30px;
 }
 .cv h3 {
-	font-size: 19px;
+	font-size: 23px;
 }
 .cv p, .col-md-2 ul, .col-md-2 h4, .col-md-8 h5, 
 .col-md-8 h4, .col-md-8 ul, .col-md-8 a, .disttext ul, 
