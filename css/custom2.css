@@ -280,15 +280,13 @@ padding-top: 10px;
 
 @media (max-width: 767px) {
 .cv p {
-	max-width: 350px;
-	margin-left: 180px;
+	margin-left: 5px;
+	margin-right: 5px;
 	font-size: 17px;
-	text-align: left;
+	text-align: center;
 }
 
-.pdftext {
-	text-indent: 120px;
-}
+
 .educat h4, .educat h5, .educat2 h4, .educat2 h5 {
 	padding-left: 30px;
 	max-width: 600px;
