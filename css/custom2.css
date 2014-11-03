@@ -280,27 +280,70 @@ padding-top: 10px;
 
 @media (max-width: 767px) {
 .cv p {
+	max-width: 350px;
+	margin-left: 180px;
 	font-size: 17px;
-	text-align: center;
-	margin-bottom: 25px;
-	margin-left: 60px;
-	margin-right: 60px;
+	text-align: left;
 }
 
-.col-md-8 h5, .col-md-8 h4  {
+.pdftext {
+	text-indent: 120px;
+}
+.educat h4, .educat h5, .educat2 h4, .educat2 h5 {
+	padding-left: 30px;
+	max-width: 600px;
 	text-align: center;
 }
-
+#dates h4 {
+	max-width: 600px;
+	text-align: center;
+	padding-left: 30px;
+	padding-bottom: 50px;
+}
 .disttext ul {
-padding-left: 0px;
-margin-left: 80px;
-margin-right: 80px;
-min-width: 350px;
+	min-width: 400px;
+	padding-left: 0px;
+	margin-left: 0px;
+	text-align: left;
+}
+.disttext {
+	padding-left: 160px;
+}
+.publictext a, .publictext p {
+	min-width: 300px;
+}
+#resrow ul, .resexper3 ul,
+.resexper4 ul {
+	text-align: left;
+	padding-left: 200px;
+	max-width: 400px;
+}
+#resrow h4, .resexper2 h4, .resexper3 h4, .resexper4 h4 {
+	text-align: left;
+	padding-left: 200px;
 }
 
-.col-md-2 ul {
+#dates1 h4, #dates2 h4, #dates3 h4, #dates4 h4 {
+	max-width: 600px;
+	text-align: left;
+	padding-left: 220px;
+	padding-bottom: 20px;
+}
+.addit h4, .indepcours h4, .indepcours a {
+	padding-left: 100px;
+	max-width: 500px;
+}
+#dates5 h4, #dates6 h4 {
+	padding-left: 100px;
+	padding-bottom: 20px;
+	max-width: 300px;
+	text-align: left;
+}
+.lang h4 {
 	padding-left: 0px;
 }
+
+
 }
 
 
