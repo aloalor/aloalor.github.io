@@ -355,6 +355,10 @@ font-size: 25px;
 	max-width: 600px;
 	text-align: center;
 }
+.publictext {
+	margin-left: 8px;
+	margin-right: 8px;
+}
 #dates h4 {
 	max-width: 600px;
 	text-align: center;
