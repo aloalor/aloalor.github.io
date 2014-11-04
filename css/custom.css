@@ -177,13 +177,13 @@ padding-bottom: 60px;
 		padding-left: 0px;
 		padding-right: 0px;
 	}
+	.jumbotron {
+	background-image: url('../images/neurons_im10.png');
+	}
 	.btn-lg {
 		font-size: 20px;
 		margin-top: 260px;
 		margin-left: 50px;
-	}
-	.jumbotron {
-	background-image: url('../images/neurons_im9.png');
 	}
 	.container {
 		max-width: 350px;
