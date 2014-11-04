@@ -179,6 +179,9 @@ padding-bottom: 60px;
 	}
 	.jumbotron {
 	background-image: url('../images/neurons_im10.png');
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	padding: 0px;
 	}
 	.btn-lg {
 		font-size: 20px;
